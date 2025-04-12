@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.product-card {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.product-card img {
+  width: 100px;
+  height: 100px;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-numbers {
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+}
+.active {
+  background-color: aqua;
+}
